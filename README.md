@@ -1,4 +1,4 @@
-\ Three-Tier Enterprise Network Architecture
+\Three-Tier Enterprise Network Architecture
 
 
 
