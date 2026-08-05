@@ -1,8 +1,8 @@
-\# Three-Tier Enterprise Network Architecture
+\ Three-Tier Enterprise Network Architecture
 
 
 
-\## Project Overview
+\ Project Overview
 
 
 
@@ -30,7 +30,7 @@ and manageable enterprise network design.
 
 
 
-\## Network Topology
+\ Network Topology
 
 
 
@@ -42,11 +42,11 @@ Click the image to view the full-size topology.
 
 
 
-\## Architecture
+\ Architecture
 
 
 
-\### Core Layer
+\ Core Layer
 
 
 
@@ -56,7 +56,7 @@ sections of the network.
 
 
 
-\### Distribution Layer
+\ Distribution Layer
 
 
 
@@ -66,7 +66,7 @@ and supports routing, network segmentation and policy control.
 
 
 
-\### Access Layer
+\ Access Layer
 
 
 
@@ -76,7 +76,7 @@ printers and other end-user devices.
 
 
 
-\## Project Features
+\ Project Features
 
 
 
@@ -96,7 +96,7 @@ printers and other end-user devices.
 
 
 
-\## Repository Structure
+\ Repository Structure
 
 
 
@@ -112,7 +112,7 @@ configs/         Sanitized device configurations
 
 
 
-###### How to Open the Project
+How to Open the Project
 
 Install Cisco Packet Tracer.
 
@@ -124,7 +124,7 @@ Examine the network topology and device configurations.
 
 
 
-###### Future Improvements
+Future Improvements
 
 Add a detailed VLAN plan
 
@@ -140,7 +140,7 @@ Document redundancy and failover testing
 
 
 
-###### Author 
+Author 
 
 Jaskirat Kaur
 
