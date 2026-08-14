@@ -162,9 +162,10 @@ Additional configuration and verification directories will be added as the proje
 
 ## Documentation
 
-Current project documentation includes:
+Current technical documentation includes:
 
 - [VLAN and IP Addressing Plan](docs/vlan-ip-addressing.md)
+- [ACL Security Policy](docs/security-acl-policy.md)
 
 Additional documentation will be added as the implementation and testing phases progress.
 
