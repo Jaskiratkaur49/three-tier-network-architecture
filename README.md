@@ -121,9 +121,11 @@ For the complete building-by-building VLAN plan, DHCP pools, default gateways, a
 ## Repository Structure
 
 ```text
+
 three-tier-network-architecture/
 │
 ├── README.md
+├── .gitattributes
 │
 ├── docs/
 │   ├── README.md
@@ -135,18 +137,49 @@ three-tier-network-architecture/
 ├── packet-tracer/
 │   └── [Cisco Packet Tracer project file]
 │
-└── .gitattributes
+└── configs/
+    ├── README.md
+    │
+    ├── core/
+    │   ├── README.md
+    │   ├── CORE-SW1.cfg
+    │   └── CORE-SW2.cfg
+    │
+    ├── distribution/
+    │   ├── README.md
+    │   ├── DIST-A1.cfg
+    │   ├── DIST-B1.cfg
+    │   ├── DIST-A2.cfg
+    │   ├── DIST-B2.cfg
+    │   ├── DIST-A3.cfg
+    │   └── DIST-B3.cfg
+    │
+    ├── access/
+    │   └── README.md
+    │
+    ├── firewall/
+    │   ├── README.md
+    │   ├── ASA-FW-1.cfg
+    │   └── ASA-FW-2.cfg
+    │
+    └── edge/
+        ├── README.md
+        └── ISP-Router.cfg
 ```
 
 ### Directory Description
 
-| Directory | Purpose |
-|---|---|
-| `docs/` | Technical network documentation |
-| `images/` | Network topology diagrams and screenshots |
-| `packet-tracer/` | Cisco Packet Tracer project files |
-
-Additional configuration and verification directories will be added as the project develops.
+| Directory               | Purpose                                                                                                                                |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `docs/`                 | Technical network documentation, including the VLAN and IP addressing plan                                                             |
+| `images/`               | Network topology diagrams and project-related images                                                                                   |
+| `packet-tracer/`        | Cisco Packet Tracer project file containing the complete simulated enterprise network                                                  |
+| `configs/`              | Sanitized Cisco IOS and ASA device configurations used in the project                                                                  |
+| `configs/core/`         | Core Layer multilayer switch configurations                                                                                            |
+| `configs/distribution/` | Distribution Layer multilayer switch configurations, including OSPF, VLAN gateways, Rapid-PVST, DHCP relay, trunk redundancy, and ACLs |
+| `configs/access/`       | Access Layer switch configurations                                                                                                     |
+| `configs/firewall/`     | Cisco ASA firewall configurations providing edge security, NAT/PAT, OSPF connectivity, and outside traffic filtering                   |
+| `configs/edge/`         | Simulated ISP/WAN router configuration, including external connectivity and primary/backup static routing                              |
 
 ---
 
