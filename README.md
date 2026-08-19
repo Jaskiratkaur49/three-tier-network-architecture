@@ -208,16 +208,16 @@ Additional documentation will be added as the implementation and testing phases 
 
 Planned improvements include:
 
-- Add sanitized switch and router configurations
-- Document inter-VLAN routing configuration
-- Document routing protocol configuration
-- Add DHCP configuration and verification
-- Add connectivity and ping-test screenshots
-- Add separate screenshots for each network layer
-- Document redundancy and failover testing
+- Complete and upload the remaining Access Layer switch configurations
+- Expand technical documentation for inter-VLAN routing and OSPF
+- Document DHCP relay and centralized DHCP/DNS operation
+- Add connectivity and end-to-end ping-test screenshots
+- Add verification screenshots for VLANs, trunks, routing, ACLs, and DHCP
+- Document Rapid-PVST redundancy and failover testing
+- Perform and document link-failure and alternate-path testing
 - Add troubleshooting and verification commands
-- Document security policies and access-control implementation
-
+- Expand documentation for firewall, NAT/PAT, and ACL security policies
+- Add a dedicated testing and verification document
 ---
 
 ## Author
